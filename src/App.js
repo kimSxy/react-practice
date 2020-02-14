@@ -25,7 +25,7 @@ class App {
     return (
         <ol>
           {
-            course.map(course => <li>{course.col}{course.depart}{course.num}{course.sec}{course.prof}</li>)
+            c.map(course => <li>{c.col}{c.depart}{c.num}{c.sec}{c.prof}</li>)
           }
         </ol>
     );
