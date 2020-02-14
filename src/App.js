@@ -15,7 +15,7 @@ class Course{
 class App {
   render() {
 
-    let course = [
+    let c = new Course[
       new Course('CAS', 'CS', '112', 'B1', 'Sullivan'),
       new Course('CAS', 'EC', '102', 'AA', 'Watson'),
       new Course('CAS','MA','242','EE','Panth')
